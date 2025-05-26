@@ -1,3 +1,5 @@
+import model.report.*;
+
 import java.util.Scanner;
 
 public class Main {

@@ -1,3 +1,8 @@
+package model.report;
+
+import model.item.ItemYear;
+import model.util.FileReader;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 

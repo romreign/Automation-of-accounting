@@ -1,10 +1,15 @@
+package model.report;
+
+import model.item.ItemMonth;
+import model.item.ItemYear;
+
 import java.util.ArrayList;
 
 public class Reconciler {
-    MonthlyReports monthlyReports;
+    model.report.MonthlyReports monthlyReports;
     YearlyReport yearlyReport;
 
-    public Reconciler (MonthlyReports monthlyReports, YearlyReport yearlyReport) {
+    public Reconciler (model.report.MonthlyReports monthlyReports, YearlyReport yearlyReport) {
         this.monthlyReports = monthlyReports;
         this.yearlyReport = yearlyReport;
     }

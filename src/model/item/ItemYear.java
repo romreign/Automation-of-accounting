@@ -1,3 +1,5 @@
+package model.item;
+
 public class ItemYear {
     private int month;
     private int amount;

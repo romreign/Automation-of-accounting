@@ -1,3 +1,5 @@
+package model.item;
+
 public class ItemMonth {
     private String item_name;
     private boolean is_expense;
